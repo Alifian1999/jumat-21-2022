@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.astronot{
+    height: 100%;
+}
+.logo{
+    height: 80%;
+    margin-top: 7px;
+}
+.navbar-container{
+max-width: 100%;
+height: 10%;
+display: flex;
+justify-content: space-between;
+padding: 0 20px;  
+border-bottom: 1px solid white;
+box-shadow: 0 0 6px gray;  
+}
+
+.body-container{
+    border: 1;
+    border: 1px solid white;
+    box-shadow: 0 0 6px gray;  
+    max-width: 100%;
+    height: 80%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+.img-body{
+    width: 100%;
+    height: 35%;   
+}
+.main-teks h1{
+    margin-bottom: 10px;
+}
+.main-info{
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.mars{
+    width: 100%;
+    height: 30%;
+    border-radius: 12px;
+}
+.info-container{
+    margin-top: 55px;
+    
+}
+.mainInfo-A{
+    background-color: gray;
+}
+th,td{
+    padding: 10px;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+
+.main-teks{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.mySkills{
+    display: flex;
+    margin-top: 55px;
+    height: 45%;
+    
+}
+.skill{
+    margin-bottom: 20px;
+}
+.everything{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.cat{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mySkills p{
+    width: 90%;
+    text-align: justify;
+}
+.mySkills h2{
+    font-size: 25px;
+}
+
+.main-teks p{
+    text-align: justify;
+    max-width: 98%;
+    margin-right: 24px;
+}
+
+.a1{
+    width: 65px;
+}
+
+nav{
+    border-bottom: 1px solid white ;
+    box-shadow: 0 0 8px gray;
+    display: flex;
+}
+
+nav .left-nav{
+    
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.left-nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav .right{
+    
+    flex: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: right;
+    padding: 10px;
+    padding-right: 40px;
+}
+/*align items berfungsi sama seperti margin:0; yaitu rata tengah(vertical)*/
+.contactUs{
+    margin-right: 10px;
+}
+.right a{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 8px 10px;
+    border-radius: 12px;
+    color: black;
+}
+.right a:hover{
+    color: white;
+}
+.logo-nav{
+    cursor: pointer;
+    margin-right: 5%;
+    width: 8%;
+    margin-left: 20px;
+}
+nav ul{
+    margin-left: 35px;
+}
+p span{
+    font-weight: bold;
+}
+nav li a:hover{
+    color: #c42424;
+}
+
+
+
+footer{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 30px;
+}
+footer h2{
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.img-footer i{
+    margin-top: 15px;
+    margin-right: 13px;
+}
+.saya {
+    clip-path: circle();
+    width: 150px;
+   position: absolute;
+    left: 120px;
+    top: 135px;
+}
+.skills{
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+.i i{
+    width: 300px;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+.i hr{
+    width: 100%;
+    text-align: right;
+}
+.i-sub{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.i-sub p{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.body-container h1{
+    margin: 0;
+}
+
+.skills{
+    margin-bottom:-15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.icon-bottom{
+display: flex;
+margin-top: 10px;
+}
+.icon-bottom p{
+    margin-right: 15px;
+    padding: 2px;
+    background-color: #D9D7F1;
+}
+hr{
+    margin-top: 5px;
+}
+
+.icon-bottom-b{
+    display: flex;
+    margin-top: 10px;
+}
+.icon-bottom-b p{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2px;
+    background-color: #D9D7F1;
+}
