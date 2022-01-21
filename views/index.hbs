@@ -29,11 +29,20 @@
                 </li>
                 </ul>
                 <form class="d-flex ">
+                {{#if isLogin}}
                <div>     
+                <a href=""<button type="button" class="btn btn-danger px-2">{{this.name}}</button></a>
+                <a href="/logout"<button type="button" class="btn btn-danger px-2 ">Logout</button></a>
+                
+                </div>
+                {{/if}}
+                {{#unless isLogin}}
+                <div>     
                 <a href="/contact"<button type="button" class="btn btn-danger px-2">Contact Me</button></a>
                 <a href="/register"<button type="button" class="btn btn-danger px-2 ">Register</button></a>
                 <a href="/login"<button type="button" class="btn btn-danger px-2 ">Login</button></a>
                 </div>
+                {{/unless}}
             </form>
           </div>
         </div>
